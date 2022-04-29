@@ -20,4 +20,7 @@ equation_label = StringVar()
 label = Label(window, textvariable=equation_label, font=('consolas',20), bg="white", width=24, height=2)
 label.pack()
 
+frame = Frame(window)
+frame.pack()
+
 window.mainloop()
