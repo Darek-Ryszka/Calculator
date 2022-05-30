@@ -2,7 +2,7 @@
 Python Calculator Program
 
 ## General info
-This project is simple Calculator using Tkinter library
+This project is a simple Calculator using Tkinter library
 
 ## Technologies
 * Pytohon version: 3.8
