@@ -1,15 +1,15 @@
 from tkinter import *
 
-def button_press(num):
 
+def button_press(num):
     global equation_text
 
     equation_text = equation_text + str(num)
 
     equation_label.set(equation_text)
 
-def equals():
 
+def equals():
     global equation_text
 
     try:
@@ -32,13 +32,14 @@ def equals():
 
         equation_text = ""
 
-def clear():
 
+def clear():
     global equation_text
 
     equation_label.set("")
 
     equation_text = ""
+
 
 window = Tk()
 window.title(" Calculator ")
@@ -48,7 +49,7 @@ equation_text = ""
 
 equation_label = StringVar()
 
-label = Label(window, textvariable=equation_label, font=('consolas',20), bg="white", width=24, height=2)
+label = Label(window, textvariable=equation_label, font=('consolas', 20), bg="white", width=24, height=2)
 label.pack()
 
 frame = Frame(window)
